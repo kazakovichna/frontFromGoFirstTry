@@ -21,6 +21,7 @@
                    :list="list2"
                    @change="commitChange"
         >
+
             <div
                     class="list-item"
                     v-for="element in list2"
