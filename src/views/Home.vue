@@ -16,7 +16,6 @@
     <div class="main-board-div">
         <div class="board"
              v-for="board in dataObjectMass" :key="board"
-             @click="$router.push('/desk/' + board.id)"
         >
             <div class="board-name">
                 <div class="board-name-text">
